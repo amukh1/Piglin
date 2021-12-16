@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
+body {
+    background-color: rgb(51, 41, 41);
+    overflow-x: hidden;
+    font-family: 'Bakbak One', cursive;
+}
+
+.headerContainer {
+    text-align: center;
+    font-size: 80px;
+}
+
+.piglin {
+    color: darkviolet;
+  
+}
+
+.box {
+    color: rgb(202, 106, 243);
+    position: relative;
+    left: 100px;
+}
+
+.portalContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.portal {
+    margin: 40px;
+    color: white;
+    font-size: 20px;
+}
+
+.outline {
+    /* filter: blur(1px); */
+    transition: all 1s ease;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.outline:hover {
+    /* filter: blur(0px); */
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+    cursor:pointer;
+    border: 2px solid rgb(51, 41, 41);
+}
+
+.developers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.developer {
+    transition: all 0.5s ease;
+    position: relative;
+    top: 0px;
+    margin: 10px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background-color: white;
+    border-radius: 25px;
+    /* display: block; */
+}
+
+.developer:hover {
+    top: -10px;
+    margin: 10px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background-color: white;
+    border-radius: 25px;
+    /* display: block; */
+    cursor: pointer;
+}
+
+.work {
+    font-size: 15px;
+}
+
+/* .devDisc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+     border-radius: 15px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  .devz {
+      color: white;
+        font-size: 40px;
+        text-align: center;
+        margin: 20px;
+  }
+
+  .foot {
+      color: white;
+  }

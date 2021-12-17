@@ -14,11 +14,11 @@ body {
 }
 
 .dv {
-    color: darkviolet;
+    color: rgb(255, 73, 41);
 }
 
 .lv {
-    color: rgb(202, 106, 243);
+    color: rgb(255, 126, 41);
 }
 
 .kills {
@@ -35,7 +35,7 @@ body {
 
 .kill {
     display: flex;
-    background-color: rgb(172, 76, 216);
+    color: rgb(255, 126, 41);
     border-radius: 15px;
     margin-top: 15px;
 }
@@ -49,8 +49,8 @@ body {
 }
 
 hr {
-    background-color: rgb(172, 76, 216);
-    border-color: rgb(216, 156, 243);
+    color: rgb(255, 126, 41);
+    color: rgb(252, 147, 78);
 }
 
 /* width */

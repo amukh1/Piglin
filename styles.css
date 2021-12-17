@@ -16,6 +16,10 @@ body {
   
 }
 
+img {
+    width: 150px;
+}
+
 .box {
     color: rgb(255, 126, 41);
     position: relative;

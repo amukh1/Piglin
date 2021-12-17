@@ -35,7 +35,7 @@ body {
 
 .kill {
     display: flex;
-    color: rgb(255, 126, 41);
+    background-color: rgb(255, 126, 41);
     border-radius: 15px;
     margin-top: 15px;
 }
@@ -49,8 +49,8 @@ body {
 }
 
 hr {
-    color: rgb(255, 126, 41);
-    color: rgb(252, 147, 78);
+    background-color: rgb(255, 126, 41);
+    border-color: rgb(255, 126, 41);
 }
 
 /* width */

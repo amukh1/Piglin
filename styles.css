@@ -12,12 +12,12 @@ body {
 }
 
 .piglin {
-    color: darkviolet;
+    color: rgb(255, 73, 41);
   
 }
 
 .box {
-    color: rgb(202, 106, 243);
+    color: rgb(255, 126, 41);
     position: relative;
     left: 100px;
 }

@@ -23,7 +23,7 @@ body {
 
 .kills {
     width: 80%;
-    height: 150avh;
+/*     height: 150avh; */
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 3%;
@@ -34,10 +34,20 @@ body {
 }
 
 .kill {
+  transition: all 0.5s ease;
     display: flex;
     background-color: rgb(255, 126, 41);
     border-radius: 15px;
     margin-top: 15px;
+}
+
+.kill:hover {
+    display: flex;
+    background-color: rgb(255, 126, 41);
+    border-radius: 15px;
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .e {
@@ -76,4 +86,8 @@ hr {
 
   .foot {
       color: white;
+  }
+
+  #killed1 {
+    margin-top: 0px;
   }

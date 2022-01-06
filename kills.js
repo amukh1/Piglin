@@ -39,9 +39,9 @@ if(data.length > 1) {
     .then(data => {
 console.log(data)
 if(data.length > 1) {
-    document.getElementById("killed1").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
+    document.getElementById("killed2").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
 }else {
-    document.getElementById("killed1").innerHTML = data[0].UserName
+    document.getElementById("killed2").innerHTML = data[0].UserName
         }
     })
     
@@ -50,9 +50,9 @@ if(data.length > 1) {
     .then(data => {
 console.log(data)
 if(data.length > 1) {
-    document.getElementById("killed1").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
+    document.getElementById("kille3").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
 }else {
-    document.getElementById("killed1").innerHTML = data[0].UserName
+    document.getElementById("killed3").innerHTML = data[0].UserName
         }
     })
     
@@ -61,9 +61,9 @@ if(data.length > 1) {
     .then(data => {
 console.log(data)
 if(data.length > 1) {
-    document.getElementById("killed1").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
+    document.getElementById("killed4").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
 }else {
-    document.getElementById("killed1").innerHTML = data[0].UserName
+    document.getElementById("killed4").innerHTML = data[0].UserName
         }
     })
 
@@ -72,9 +72,9 @@ if(data.length > 1) {
     .then(data => {
 console.log(data)
 if(data.length > 1) {
-    document.getElementById("killed1").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
+    document.getElementById("killed5").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
 }else {
-    document.getElementById("killed1").innerHTML = data[0].UserName
+    document.getElementById("killed5").innerHTML = data[0].UserName
         }
     })
     
@@ -83,9 +83,9 @@ if(data.length > 1) {
     .then(data => {
 console.log(data)
 if(data.length > 1) {
-    document.getElementById("killed1").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
+    document.getElementById("killed6").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
 }else {
-    document.getElementById("killed1").innerHTML = data[0].UserName
+    document.getElementById("killed6").innerHTML = data[0].UserName
         }
     })
     
@@ -94,9 +94,9 @@ if(data.length > 1) {
     .then(data => {
 console.log(data)
 if(data.length > 1) {
-    document.getElementById("killed1").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
+    document.getElementById("killed7").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
 }else {
-    document.getElementById("killed1").innerHTML = data[0].UserName
+    document.getElementById("killed7").innerHTML = data[0].UserName
         }
     })
 
@@ -105,9 +105,9 @@ if(data.length > 1) {
     .then(data => {
 console.log(data)
 if(data.length > 1) {
-    document.getElementById("killed1").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
+    document.getElementById("killed8").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
 }else {
-    document.getElementById("killed1").innerHTML = data[0].UserName
+    document.getElementById("killed8").innerHTML = data[0].UserName
         }
     })
     
@@ -116,9 +116,9 @@ if(data.length > 1) {
     .then(data => {
 console.log(data)
 if(data.length > 1) {
-    document.getElementById("killed1").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
+    document.getElementById("killed9").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
 }else {
-    document.getElementById("killed1").innerHTML = data[0].UserName
+    document.getElementById("killed9").innerHTML = data[0].UserName
         }
     })
 
@@ -127,9 +127,9 @@ if(data.length > 1) {
     .then(data => {
 console.log(data)
 if(data.length > 1) {
-    document.getElementById("killed1").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
+    document.getElementById("killed10").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
 }else {
-    document.getElementById("killed1").innerHTML = data[0].UserName
+    document.getElementById("killed10").innerHTML = data[0].UserName
         }
     })
     

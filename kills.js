@@ -23,70 +23,70 @@ console.log(killed);
 
 
 
-    fetch(`https://PiglinBox.amukh1.repl.co/getNameOfKill?kills=${killed[0]}`)
+    fetch(`https://api.amukh1.dev/getNameOfKill?kills=${killed[0]}`)
     .then(response => response.json())
     .then(data => {
 console.log(data)
 document.getElementById("killed1").innerHTML = data[0].UserName
     })
     
-    fetch(`https://PiglinBox.amukh1.repl.co/getNameOfKill?kills=${killed[1]}`)
+    fetch(`https://api.amukh1.dev/getNameOfKill?kills=${killed[1]}`)
     .then(response => response.json())
     .then(data => {
 console.log(data)
 document.getElementById("killed2").innerHTML = data[0].UserName
     })
     
-    fetch(`https://PiglinBox.amukh1.repl.co/getNameOfKill?kills=${killed[2]}`)
+    fetch(`https://api.amukh1.dev/getNameOfKill?kills=${killed[2]}`)
     .then(response => response.json())
     .then(data => {
 console.log(data)
 document.getElementById("killed3").innerHTML = data[0].UserName
     })
     
-    fetch(`https://PiglinBox.amukh1.repl.co/getNameOfKill?kills=${killed[3]}`)
+    fetch(`https://api.amukh1.dev/getNameOfKill?kills=${killed[3]}`)
     .then(response => response.json())
     .then(data => {
 console.log(data)
 document.getElementById("4e").innerHTML = data[0].UserName
     })
 
-    fetch(`https://PiglinBox.amukh1.repl.co/getNameOfKill?kills=${killed[4]}`)
+    fetch(`https://api.amukh1.dev/getNameOfKill?kills=${killed[4]}`)
     .then(response => response.json())
     .then(data => {
 console.log(data)
 document.getElementById("5e").innerHTML = data[0].UserName
     })
     
-    fetch(`https://PiglinBox.amukh1.repl.co/getNameOfKill?kills=${killed[5]}`)
+    fetch(`https://api.amukh1.dev/getNameOfKill?kills=${killed[5]}`)
     .then(response => response.json())
     .then(data => {
 console.log(data)
 document.getElementById("6e").innerHTML = data[0].UserName
     })
     
-    fetch(`https://PiglinBox.amukh1.repl.co/getNameOfKill?kills=${killed[6]}`)
+    fetch(`https://api.amukh1.dev/getNameOfKill?kills=${killed[6]}`)
     .then(response => response.json())
     .then(data => {
 console.log(data)
 document.getElementById("7e").innerHTML = data[0].UserName
     })
 
-    fetch(`https://PiglinBox.amukh1.repl.co/getNameOfKill?kills=${killed[7]}`)
+    fetch(`https://api.amukh1.dev/getNameOfKill?kills=${killed[7]}`)
     .then(response => response.json())
     .then(data => {
 console.log(data)
 document.getElementById("8e").innerHTML = data[0].UserName
     })
     
-    fetch(`https://PiglinBox.amukh1.repl.co/getNameOfKill?kills=${killed[8]}`)
+    fetch(`https://api.amukh1.dev/getNameOfKill?kills=${killed[8]}`)
     .then(response => response.json())
     .then(data => {
 console.log(data)
 document.getElementById("9e").innerHTML = data[0].UserName
     })
 
-    fetch(`https://PiglinBox.amukh1.repl.co/getNameOfKill?kills=${killed[9]}`)
+    fetch(`https://api.amukh1.dev/getNameOfKill?kills=${killed[9]}`)
     .then(response => response.json())
     .then(data => {
 console.log(data)
@@ -106,5 +106,5 @@ for(var i = 1; i < 11; i++){
 
 
 
-xhr.open("GET", "https://piglinbox.amukh1.repl.co/getAll", true);
+xhr.open("GET", "https://api.amukh1.dev/getAll", true);
 xhr.send();

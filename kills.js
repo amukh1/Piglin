@@ -152,6 +152,6 @@ for(var i = 1; i < 11; i++){
 xhr.open("GET", "https://api.amukh1.dev/getAll", true);
 xhr.send();
 
-}
+// }
 // exd()
 // setInterval(exd, 15000);

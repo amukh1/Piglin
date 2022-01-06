@@ -27,70 +27,110 @@ console.log(killed);
     .then(response => response.json())
     .then(data => {
 console.log(data)
-document.getElementById("killed1").innerHTML = data[0].UserName
+if(data.length > 1) {
+    document.getElementById("killed1").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
+}else {
+    document.getElementById("killed1").innerHTML = data[0].UserName
+        }
     })
     
     fetch(`https://api.amukh1.dev/getNameOfKill?kills=${killed[1]}`)
     .then(response => response.json())
     .then(data => {
 console.log(data)
-document.getElementById("killed2").innerHTML = data[0].UserName
+if(data.length > 1) {
+    document.getElementById("killed1").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
+}else {
+    document.getElementById("killed1").innerHTML = data[0].UserName
+        }
     })
     
     fetch(`https://api.amukh1.dev/getNameOfKill?kills=${killed[2]}`)
     .then(response => response.json())
     .then(data => {
 console.log(data)
-document.getElementById("killed3").innerHTML = data[0].UserName
+if(data.length > 1) {
+    document.getElementById("killed1").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
+}else {
+    document.getElementById("killed1").innerHTML = data[0].UserName
+        }
     })
     
     fetch(`https://api.amukh1.dev/getNameOfKill?kills=${killed[3]}`)
     .then(response => response.json())
     .then(data => {
 console.log(data)
-document.getElementById("4e").innerHTML = data[0].UserName
+if(data.length > 1) {
+    document.getElementById("killed1").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
+}else {
+    document.getElementById("killed1").innerHTML = data[0].UserName
+        }
     })
 
     fetch(`https://api.amukh1.dev/getNameOfKill?kills=${killed[4]}`)
     .then(response => response.json())
     .then(data => {
 console.log(data)
-document.getElementById("5e").innerHTML = data[0].UserName
+if(data.length > 1) {
+    document.getElementById("killed1").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
+}else {
+    document.getElementById("killed1").innerHTML = data[0].UserName
+        }
     })
     
     fetch(`https://api.amukh1.dev/getNameOfKill?kills=${killed[5]}`)
     .then(response => response.json())
     .then(data => {
 console.log(data)
-document.getElementById("6e").innerHTML = data[0].UserName
+if(data.length > 1) {
+    document.getElementById("killed1").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
+}else {
+    document.getElementById("killed1").innerHTML = data[0].UserName
+        }
     })
     
     fetch(`https://api.amukh1.dev/getNameOfKill?kills=${killed[6]}`)
     .then(response => response.json())
     .then(data => {
 console.log(data)
-document.getElementById("7e").innerHTML = data[0].UserName
+if(data.length > 1) {
+    document.getElementById("killed1").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
+}else {
+    document.getElementById("killed1").innerHTML = data[0].UserName
+        }
     })
 
     fetch(`https://api.amukh1.dev/getNameOfKill?kills=${killed[7]}`)
     .then(response => response.json())
     .then(data => {
 console.log(data)
-document.getElementById("8e").innerHTML = data[0].UserName
+if(data.length > 1) {
+    document.getElementById("killed1").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
+}else {
+    document.getElementById("killed1").innerHTML = data[0].UserName
+        }
     })
     
     fetch(`https://api.amukh1.dev/getNameOfKill?kills=${killed[8]}`)
     .then(response => response.json())
     .then(data => {
 console.log(data)
-document.getElementById("9e").innerHTML = data[0].UserName
+if(data.length > 1) {
+    document.getElementById("killed1").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
+}else {
+    document.getElementById("killed1").innerHTML = data[0].UserName
+        }
     })
 
     fetch(`https://api.amukh1.dev/getNameOfKill?kills=${killed[9]}`)
     .then(response => response.json())
     .then(data => {
 console.log(data)
-document.getElementById("10e").innerHTML = data[0].UserName
+if(data.length > 1) {
+    document.getElementById("killed1").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
+}else {
+    document.getElementById("killed1").innerHTML = data[0].UserName
+        }
     })
     
     

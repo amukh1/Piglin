@@ -61,9 +61,9 @@ if(data.length > 1) {
     .then(data => {
 console.log(data)
 if(data.length > 1) {
-    document.getElementById("killed4").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
+    document.getElementById("4e").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
 }else {
-    document.getElementById("killed4").innerHTML = data[0].UserName
+    document.getElementById("4e").innerHTML = data[0].UserName
         }
     })
 
@@ -72,9 +72,9 @@ if(data.length > 1) {
     .then(data => {
 console.log(data)
 if(data.length > 1) {
-    document.getElementById("killed5").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
+    document.getElementById("5e").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
 }else {
-    document.getElementById("killed5").innerHTML = data[0].UserName
+    document.getElementById("5e").innerHTML = data[0].UserName
         }
     })
     
@@ -83,9 +83,9 @@ if(data.length > 1) {
     .then(data => {
 console.log(data)
 if(data.length > 1) {
-    document.getElementById("killed6").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
+    document.getElementById("6e").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
 }else {
-    document.getElementById("killed6").innerHTML = data[0].UserName
+    document.getElementById("6e").innerHTML = data[0].UserName
         }
     })
     
@@ -94,9 +94,9 @@ if(data.length > 1) {
     .then(data => {
 console.log(data)
 if(data.length > 1) {
-    document.getElementById("killed7").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
+    document.getElementById("7e").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
 }else {
-    document.getElementById("killed7").innerHTML = data[0].UserName
+    document.getElementById("7e").innerHTML = data[0].UserName
         }
     })
 
@@ -105,9 +105,9 @@ if(data.length > 1) {
     .then(data => {
 console.log(data)
 if(data.length > 1) {
-    document.getElementById("killed8").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
+    document.getElementById("8e").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
 }else {
-    document.getElementById("killed8").innerHTML = data[0].UserName
+    document.getElementById("8e").innerHTML = data[0].UserName
         }
     })
     
@@ -116,9 +116,9 @@ if(data.length > 1) {
     .then(data => {
 console.log(data)
 if(data.length > 1) {
-    document.getElementById("killed9").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
+    document.getElementById("9e").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
 }else {
-    document.getElementById("killed9").innerHTML = data[0].UserName
+    document.getElementById("9e").innerHTML = data[0].UserName
         }
     })
 
@@ -127,9 +127,9 @@ if(data.length > 1) {
     .then(data => {
 console.log(data)
 if(data.length > 1) {
-    document.getElementById("killed10").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
+    document.getElementById("10e").innerHTML = `${data[0].UserName} and ${data[1].UserName}`
 }else {
-    document.getElementById("killed10").innerHTML = data[0].UserName
+    document.getElementById("10e").innerHTML = data[0].UserName
         }
     })
     

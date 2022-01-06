@@ -3,8 +3,8 @@ let killed = []
 let c 
 
 
-function exd() {
-killed = []
+// function exd() {
+// killed = []
 xhr.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
        // Typical action to be performed when the document is ready:
@@ -153,5 +153,5 @@ xhr.open("GET", "https://api.amukh1.dev/getAll", true);
 xhr.send();
 
 }
-exd()
-setInterval(exd, 15000);
+// exd()
+// setInterval(exd, 15000);

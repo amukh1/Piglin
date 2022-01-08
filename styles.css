@@ -23,7 +23,7 @@ img {
 .box {
     color: rgb(255, 126, 41);
     position: relative;
-    left: 100px;
+    left: 200px;
 }
 
 .portalContainer {
@@ -139,12 +139,12 @@ img {
   .piglin {
       transition: all 0.5s ease;
       position: relative;
-      left: -1000px;
+      left: -1500px;
   }
 
   .box {
     transition: all 0.5s ease;
-      left: 1000px;
+      left: 1500px;
   }
 
   .portalContainer2 {

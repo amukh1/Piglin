@@ -37,7 +37,8 @@ if(data.length > 1) {
         }
     })
     
-    fetch(`https://api.amukh1.dev/getNameOfKill?deaths=${dead[1]}`)
+    // fetch(`https://api.amukh1.dev/getNameOfKill?deaths=${dead[1]}`)
+    fetch(`https://api.amukh1.dev/getNameOfKill?deaths=260`)
     .then(response => response.json())
     .then(data => {
 console.log(data)

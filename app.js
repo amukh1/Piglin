@@ -3,7 +3,7 @@ function kills() {
 }
 
 function dyingFrog() {
-    document.getElementById("piggy").style.left = "0px";
-    document.getElementById("boxx").style.left = "100px";
+    $("#piggy").css({left: "0px"});
+    $("#boxx").css({left: "100px"});
     }
     const myTimeoutt = setTimeout(dyingFrog, 700);
